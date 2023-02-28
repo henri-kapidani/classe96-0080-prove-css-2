@@ -1,0 +1,61 @@
+/* * {
+	box-sizing: border-box;
+} */
+
+/* con rem (relativo al font-size di html)*/
+/*
+html {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.rosso {
+	background-color: red;
+}
+*/
+
+/* con em (relativo al fontsize dell'elemento stesso ad eccezione della proprieta' font-size, in questo caso si riferisce al font-size del genitore) */
+
+.rosso {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 2em; /* 40px */
+}
+
+span {
+	font-size: 2em; /* 80 px */
+}
+
+
+
+.button {
+	background-color: salmon;
+	padding: 1em;
+}
+
+
+
+.box {
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+	border: 10px solid brown;
+	background-color: salmon;
+}
+
+.box-border {
+	box-sizing: border-box;
+}
